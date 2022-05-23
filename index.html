@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <h2>Task Manager</h2>
+        <div class="title"><h2>Task Manager</h2></div>
+        <div class="content">
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">Danh sách những việc cần làm trong năm 2022</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Thêm</span>
+            </div>
 
-        <div id="myDIV" class="header">
-            <h2 style="margin:5px">Danh sách những việc cần làm trong năm 2022</h2>
-            <input type="text" id="myInput" placeholder="Title...">
-            <span onclick="newElement()" class="addBtn">Thêm</span>
+            <ul id="myUL">
+                <li class="">Xin việc ở Google</li>
+                <li class="">Mua biệt thự</li>
+                <li>Cưới vợ</li>
+                <li>Mua xe hơi</li>
+                <li>Sinh con</li>
+                <li>Đi du lịch vòng quanh thế giới</li>
+            </ul>
         </div>
-
-        <ul id="myUL">
-            <li class="">Xin việc ở Google</li>
-            <li class="">Mua biệt thự</li>
-            <li>Cưới vợ</li>
-            <li>Mua xe hơi</li>
-            <li>Sinh con</li>
-            <li>Đi du lịch vòng quanh thế giới</li>
-        </ul>
     </div>
 </body>
-<script src= "main.js" type="text/javascript">
+<script src="main.js" type="text/javascript">
     // Tạo button xóa và thêm nó vào trong cá thẻ li
-    
+
 </script>
 
 </html>
