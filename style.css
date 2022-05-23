@@ -2,14 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}.container {
+}
+
+.container {
     width: 600px;
     margin: auto;
-    border: 1px solid rgb(5, 46, 160);
-    border-radius: 7px;
-    
+   
+
 }
-body {background: linear-gradient(to right, #4daf54, #3d8880);}
+
+body {
+    background: linear-gradient(to right, #4daf54, #3d8880);
+}
 
 /* Chiều cao, chiều dài của phần tử sẽ bao gồm cả padding mà margin của nó */
 
@@ -64,7 +68,7 @@ ul li.checked::before {
     top: 10px;
     left: 16px;
     transform: rotate(45deg);
-    height: 15px;
+    height: 16px;
     width: 7px;
 }
 
